@@ -1,0 +1,33 @@
+#first-paragraph{
+    color:darkslateblue;
+    background-color: cadetblue;
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph{
+    color: #b15cba;
+    background-color:darkslateblue;
+    font-size: 24px;
+    text-decoration:underline;
+}
+
+#bold-paragraph{
+    font-weight:bold;
+    background-color: cornflowerblue;
+    font-size: 45px;
+}
+#span1{
+    color: #b15cba;
+    font-weight: bold;
+}
+
+#span2{
+    color: teal;
+    font-size: x-large;
+}
+
+#span4{
+    color: #b15cba;
+    font-weight: bold;
+}
