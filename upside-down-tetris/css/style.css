@@ -1,0 +1,30 @@
+
+.tetris-block{
+    border-width: 12px;
+    border-style: outset;
+    padding: 20px;
+    display: inline-block;
+}
+#empty{
+    border-color: black;
+}
+.red{
+    background-color: red;
+    border-color: crimson;
+}
+.blue{
+    background-color: blue;
+    border-color: darkblue;
+}
+.yellow{
+    background-color: yellow;
+    border-color: orange;
+}
+.green{
+    background-color: green;
+    border-color: darkgreen;
+}
+.purple{
+    background-color: blueviolet;
+    border-color: darkslateblue;
+}
