@@ -1,5 +1,7 @@
 #content{
     border-radius: 5%;
+    background: linear-gradient(rgb(234, 187, 146),rgb(251, 173, 46));
+
 }
   
 #license{
@@ -25,6 +27,7 @@ h4{
 
 #left-side {
    width: 50%;
+  padding: 5px;
 }
 
 #id-and-expiration div {
@@ -42,14 +45,14 @@ h4{
 
 #small-pic,
 #data-fields {
-    display: inline;
-    padding: 5px;
+    display: inline-block;
 }
 
 #data-left,
 #data-right {
     color: blue;
     display: inline-block;
+    padding-bottom: 30px;
 }
 
 #data-fields{
@@ -78,7 +81,7 @@ h4{
     color: red;
 }
 div#right-side img {
-    width: 300px;
+    width: 250px;
 }
 #donor,
 #real-id {
