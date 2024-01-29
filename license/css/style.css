@@ -1,0 +1,90 @@
+#content{
+    border-radius: 5%;
+}
+  
+#license{
+    border:  3px solid black;
+    border-radius: 5%;
+    width: 700px;
+}
+
+h1{
+    color: darkblue;
+    padding-left: 15px;
+    font-size: 45px;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    background-color: darkblue;
+    margin-top: 0px;
+    padding: 20px;
+    
+}
+
+#left-side {
+   width: 50%;
+}
+
+#id-and-expiration div {
+    display: inline-block   
+}
+
+#id-and-expiration span {
+    color: red;
+    font-weight: bold;
+}
+
+#id-and-expiration {
+    color: blue;
+}
+
+#small-pic,
+#data-fields {
+    display: inline;
+    padding: 5px;
+}
+
+#data-left,
+#data-right {
+    color: blue;
+    display: inline-block;
+}
+
+#data-fields{
+    text-align: center;
+}
+
+#data-left span,
+#data-right span {
+    color: red;
+}
+
+#address {
+    font-weight: bold;
+}
+
+#left-side,
+#right-side {
+    display: inline-block;
+}
+
+#right-side {
+    width: 200px;
+    text-align: right;
+}
+#donor{
+    color: red;
+}
+div#right-side img {
+    width: 300px;
+}
+#donor,
+#real-id {
+    display: inline-block;
+}
+#signature{
+    font-family: cursive;
+    font-size: 24px;
+}
