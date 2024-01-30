@@ -12,26 +12,31 @@
 
 h1{
     color: darkblue;
+    margin-top: 0px;
     padding-left: 15px;
-    font-size: 45px;
+    padding-top: 20px;
+    font-size: 50px;
+    margin-bottom: 0;
 }
 
 h4{
     color: white;
     text-align: center;
     background-color: darkblue;
-    margin-top: 0px;
-    padding: 20px;
-    
+    padding: 15px;
+    margin-top:0px;
+    margin-bottom: 10px;
+    width: 390px;
 }
 
 #left-side {
-   width: 50%;
-  padding: 5px;
+   width: 60%;
+  padding: 10px;
 }
 
 #id-and-expiration div {
-    display: inline-block   
+    display: inline-block; 
+    margin-left: 10px;
 }
 
 #id-and-expiration span {
@@ -46,17 +51,18 @@ h4{
 #small-pic,
 #data-fields {
     display: inline-block;
+    margin-left: 10px;
 }
 
 #data-left,
 #data-right {
     color: blue;
     display: inline-block;
-    padding-bottom: 30px;
 }
 
 #data-fields{
-    text-align: center;
+    text-align: left;
+    padding: 5px;
 }
 
 #data-left span,
@@ -66,6 +72,7 @@ h4{
 
 #address {
     font-weight: bold;
+    margin: 10px;
 }
 
 #left-side,
@@ -81,13 +88,20 @@ h4{
     color: red;
 }
 div#right-side img {
-    width: 250px;
+    height: 265px;
+    padding-right: 10px;
 }
 #donor,
 #real-id {
     display: inline-block;
+    margin: 12px;
 }
 #signature{
     font-family: cursive;
     font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#real-id{
+    color: yellow;
 }
