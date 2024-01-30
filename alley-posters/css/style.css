@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+.display-1,
+.display-2 {
+    padding: 24px;
+}
+#band {
+width: 150px;
+border: 5px solid;
+}
+#band-text {
+    background-color: rgb(197, 238, 74);
+    border: 2px solid;
+    width: 100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 8px;
+    padding: 3px;
+} 
+#truck {
+    width: 100px;
+    border: 4px solid;
+}
+.display-1,
+.display-2,
+.display-3{
+    display: inline-block;
+}
+#skate{
+    width: 100px;
+    border: 4px solid;
+}
+#burger{
+    width: 100px;
+    border: solid 4px darkblue;
+}
