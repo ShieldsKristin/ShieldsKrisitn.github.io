@@ -9,16 +9,17 @@ width: 150px;
 border: 5px solid;
 }
 #band-text {
-    background-color: rgb(197, 238, 74);
+    background: linear-gradient(rgb(147, 194, 105),rgb(251, 241, 46));
     border: 2px solid;
     width: 100px;
     font-family:'Times New Roman', Times, serif;
     font-size: 8px;
-    padding: 3px;
+
 } 
-#truck {
-    width: 100px;
+#truck { 
+    height: 160px;
     border: 4px solid;
+    margin-right: 40px;
 }
 .display-1,
 .display-2,
