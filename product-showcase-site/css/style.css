@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(177, 227, 222);
+}
+.container-1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#brew {
+    width: 150px;
+}
+
+#tasty {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-2 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: rgb(253, 226, 47);
+}
+.container-3 { 
+        background-color: teal;
+}
+.single-column{
+    width: 50%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.single-column img {
+    width: 40%;
+}
