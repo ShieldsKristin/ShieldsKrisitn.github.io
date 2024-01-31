@@ -28,15 +28,27 @@ body {
     background-color: rgb(253, 226, 47);
 }
 .container-3 { 
-        background-color: teal;
+        background-color: whitesmoke;
 }
 .single-column{
     width: 50%;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    display: block;
 }
 .single-column img {
     width: 40%;
+}
+#clear {
+    text-align: center;
+    font-size: 25px;
+}
+#brew1 {
+    background-color: teal;
+}
+#brew2{
+    background-color: plum;
+}
+#brew4{
+    background-color: orange;
 }
