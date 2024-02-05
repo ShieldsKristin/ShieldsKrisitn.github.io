@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color:cadetblue;
 }
 
 #grid-layout {
@@ -69,9 +70,8 @@ body {
 }
 
 .metube-item .thumbnail-placeholder{
-    background: black;
     aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .metube-item h4 {
