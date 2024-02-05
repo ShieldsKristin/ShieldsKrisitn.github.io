@@ -11,6 +11,7 @@ body {
     display: flex;
 }
 #sidebar-content {
+    position: sticky;
     background-color:rgb(192, 223, 215);
     width: 250px;
     padding: 24px;
