@@ -4,17 +4,42 @@
 
 body {
     margin: 0px;
+    font-family: sans-serif;
 }
 
-#content {
-    background-color: aquamarine;
+#layout {
+    display: grid;
+    grid-template-columns: 3fr 250px;
 }
-
 #scuba1 {
     width: 400px;
 }
 
 #main-content {
-    display: grid
+    padding: 100px;
+    background-color: aquamarine;
+}
+#sidebar {
+    background-color: cornflowerblue;
+    padding: 24px;
+}
+#scuba1,
+#scuba3 {
+    width: 400px;
+}
+#scuba2 {
+    width: 400px;
+}
+#scuba4 {
+    width: 400px;
+}
 
+#sidebar h2 {
+    text-align: center;
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 12px 0px;
+    margin: 0;
+    border-bottom: 1px solid gray;
 }
