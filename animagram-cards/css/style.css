@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+    gap: 36px;
+}
+
+.card-style-2 {
+    background-color: white;
+    border-radius: 24px;
+    max-width: 350px;
+    padding: 24px;
+    text-align: center;
+}
+
+.card-style-2 img {
+    border-radius: 50%;
+    width: 70%;
+}
+
+.card-style-2 h2 {
+    padding: 12px;
+}
+.card-style-2 p {
+    padding: 14px;
+}
+
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.animagram-footer {
+    display: flex;
+    font-size:x-large;
+    justify-content: space-between;
+}
