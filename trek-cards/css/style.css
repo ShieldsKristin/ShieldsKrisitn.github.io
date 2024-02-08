@@ -33,12 +33,11 @@
     transition: 
     background-color 0.5s,
     color 0.5s;
-    border: 2px solid green;
 }
 
 .card-style-1 a:hover {
-    background-color: transparent;
-    color:black;
+    background-color: rgb(175, 216, 175);
+    color:white;
     
 
 
