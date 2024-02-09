@@ -8,7 +8,6 @@ body {
 }
 
 .card-style-3 {
-    flex-direction: column;
     border: 14px solid gold;
     width: 350px;
     border-radius: 12px;
