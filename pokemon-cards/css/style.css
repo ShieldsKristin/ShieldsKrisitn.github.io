@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-3 {
+    flex-direction: column;
+    border: 14px solid gold;
+    width: 350px;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.card-style-3 img {
+    width: 100%;
+    border: 6px solid darkgoldenrod;
+   
+}
+
+#pokemon-card-1,
+#pokemon-card-2 {
+    background:linear-gradient( lightgreen, green,lightgreen )
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(orange,red, orange);
+}
+
+#pokemon-card-4 {
+    background: linear-gradient(lightblue,aqua, lightblue);
+}
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    background-color: gold;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    padding: 2px;
+}
+
+.attack {
+    display: flex;
+    border-bottom: 2px solid;
+}
+
+.data {
+    border: 2px solid gold;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.description { 
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.name {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.health {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.power {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+.energy {
+    margin: 20px;
+    padding-top: 45px;
+}

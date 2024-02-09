@@ -1,37 +1,69 @@
 * {
-    box-sizing:border-box
+    box-sizing:border-box;
+    margin: 0px;
+    font-family: sans-serif;
 }
 
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(195, 242, 246);
 }
 
 #layout {
-    display: grid;
-    grid-template-columns: 3fr 250px;
+    display:grid;
+    grid-template-columns:1fr 250px;
+    grid-template-areas: "sidebar";
+    margin: 36px;
 }
 #scuba1 {
     width: 400px;
+    margin: 24px;
 }
 
 #main-content {
     padding: 100px;
-    background-color: aquamarine;
 }
 #sidebar {
     background-color: cornflowerblue;
     padding: 24px;
+    height: 300px;
+    text-align: center;
 }
+#sidebar ul {
+    background-color: #EFEFEF;
+    border: 1px solid rgb(14, 46, 76);
+    margin: 0px 0px 36px; 
+    list-style-type: none;
+    padding: 0px 12px;
+}
+
+#sidebar a {
+    color: black;
+    text-decoration: none;
+}
+
+#sidebar li {
+    border-bottom: 1px solid darkslategrey;
+    padding: 8px 0px;
+}
+
+#sidebar li:last-child {
+    border-bottom: 0px;
+}
+
 #scuba1,
 #scuba3 {
     width: 400px;
+    margin: 24px;
 }
 #scuba2 {
     width: 400px;
+    margin: 24px;
 }
 #scuba4 {
     width: 400px;
+    margin: 24px;
 }
 
 #sidebar h2 {
@@ -41,4 +73,12 @@ body {
     list-style-type: none;
     padding: 12px 0px;
     margin: 0;
+}
+
+#main-content p {
+    text-align: center;
+}
+
+#main-content h3 {
+    margin: 15px;
 }
