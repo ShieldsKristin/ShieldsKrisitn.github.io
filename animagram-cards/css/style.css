@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     font-family: sans-serif;
-    gap: 36px;
+    gap: 24px;
 }
 
 .card-style-2 {
@@ -10,6 +10,7 @@
     border-radius: 24px;
     max-width: 350px;
     padding: 24px;
+    margin-top: 18px;
     text-align: center;
 }
 
@@ -23,17 +24,22 @@
 }
 .card-style-2 p {
     padding-bottom: 36px;
+    margin-: 18px;
 }
 
 .animagram-header {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
+    padding: 12px;
+    margin-bottom: 20px;
 }
 
 .animagram-footer {
     display: flex;
-    font-size:x-large;
-    justify-content: space-between;
+    font-size: 24px;
+    justify-content: space-between; 
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
