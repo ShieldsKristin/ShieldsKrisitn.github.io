@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/images/lizard.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+
+.spacer {
+    height: 50vh;
+}
+
+#hero-2 {
+    background-image: url("../images/images/lonely-ocean.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-2 a {
+    display: inline-block;
+    background-color: rgb(45, 43, 43);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 1.5vw;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url("../images/images/orange-wildflowers.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-3 h2,
+#hero-4 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-3 h4,
+#hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-3 a {
+    display: inline-block;
+    background-color: rgb(239, 130, 14);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 1.5vw;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-4 {
+    background-image: url("../images/images/stars-on-velvet.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20vh;
+}
+
+#hero-4 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5hv 5vw 10vh 0px;
+}
+
+.spacer {
+    background-image: url("../images/images/snowy-wasteland.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image:url("../images/Yoga.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+#content-1 {
+    text-align: center;
+    color: #111111;
+    font-size: 5vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+
+
+#content-1 a {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(176, 232, 176, 0.488);
+    border-radius: 25px;
+    padding: 20px;
+    display: inline-block;
+    margin: 5vh 5vw 10vh 0px;
+}
+#hero-2 {
+background-image:url("../images/tea.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+justify-content: center ;
+align-items: center;
+}
+
+#hero-2 h2 {
+    font-size: 6vw;
+}
+
+#hero-2 h4 {
+    font-size:6vw;
+    margin: 10px;
+}
+
+#hero-2 a {
+    display: inline-block;
+    background-color: pink;
+    border-radius: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 1.5vw;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image:url("../images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    position: relative;
+    }
+
+    #hero-3 .hero-content {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    
+    #hero-3 h2 {
+        font-size: 6vw;
+        margin-bottom: 5vh;
+        margin-right: 5vw;
+        color: peachpuff;
+    }
+    
+    #hero-3 h4 {
+        font-size: 1vw;
+        font-style: italic;
+        margin: 0px 5vw 0px 0px;
+        color: peachpuff;
+    }
+    
+    #hero-3 a {
+        font-size: 1.5vw;
+        display: inline-block;
+        background-color: rgb(65, 60, 98);
+        border-radius: 20px;
+        color: peachpuff;
+        text-decoration: none;
+        padding: 24px;
+        margin: 5vh 5vw 1vh 0px;
+    }
+
+
+
+
