@@ -48,13 +48,17 @@ justify-content: center ;
 align-items: center;
 }
 
+#content-2 {
+    text-align: center;
+}
+
 #hero-2 h2 {
-    font-size: 6vw;
+    font-size: 5vw;
 }
 
 #hero-2 h4 {
-    font-size:6vw;
-    margin: 10px;
+    font-size:2vw;
+    padding-left: 30px;
 }
 
 #hero-2 a {
@@ -63,9 +67,9 @@ align-items: center;
     border-radius: 20px;
     color: whitesmoke;
     text-decoration: none;
-    padding: 24px;
+    padding: 20px;
     font-size: 1.5vw;
-    margin: 5vh 5vw 10vh 0px;
+
 }
 
 #hero-3 {
