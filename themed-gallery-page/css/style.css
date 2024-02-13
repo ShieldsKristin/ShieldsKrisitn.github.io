@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #333333;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 24px auto;
+    text-align: center;
+    border: 5px solid;
+}
+
+#hero {
+    background-image: url("../images/Hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+h2 {
+    color: whitesmoke;
+    background-color: #141414a3;
+    font-size: 5vw;
+    padding: 10vh;
+    text-align: center;
+}
+
+.gallery {
+  background-color: #333333;  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+    height: 300px;
+    width: 100%;
+    flex: 1;
+    object-fit: cover;
+}
+
