@@ -42,15 +42,20 @@ body {
     background-color: darkseagreen;
     width: 450px;
     border-radius: 20px;
-    box-shadow: 4px 4px 12px #507ca8;
+    box-shadow: 4px 4px 12px #333333;
     margin: 80px;
     text-align: center;
 }
 
 .card a {
     color: black;
+    display: inline-block;
+    padding: 24px;
     text-decoration: none;
     font-size: 24px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+
     transition: 
         background-color 0.5s,
         color 0.5s;
