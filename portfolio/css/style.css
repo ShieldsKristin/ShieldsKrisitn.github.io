@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Revolution&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: lavender;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    justify-content: center;
+    display: flex;
+}
+
+.hero{
+    background-image: url("../images/aurora.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 20vh;
+    font-size: 5vh;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.card {
+    background-color: darkseagreen;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px #507ca8;
+    margin: 80px;
+    text-align: center;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    color: darkslategray;
+}
+
+.card img {
+    height: 250px;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+#content {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery img {
+    height: 245px;
+    flex: 1;
+    object-fit: cover;
+}
+
+#gallery-layout h3 {
+    justify-content: center;
+}
