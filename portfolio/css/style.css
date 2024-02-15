@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Revolution&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap')
 * {
     box-sizing: border-box;
 }
@@ -24,6 +24,7 @@ body {
     background-color: #333333;
     box-shadow: 4px 4px 12px #333333;
     background-size: cover;
+    height: 100vh;
     background-position: center center;
     display: flex;
     justify-content: center;
@@ -32,14 +33,14 @@ body {
 }
 
 #p {
-    color: rgb(241, 232, 232);
+    color: rgb(202, 221, 212);
     text-align: center;
     max-width: 900px;
-    font-size: 24px;
+    font-size: 32px;
     margin: 50px auto;
     padding: 50px;
     background-color: #33333368;
-    font-family: "Playfair Display", serif;
+    font-family: "Fredoka", sans-serif;
     border-radius: 20px;
     box-shadow: 4px 4px 12px #333333;
 }
@@ -51,12 +52,20 @@ body {
     font-family: "Playfair Display", serif;
 }
 
+.hero h3 {
+    font-size: 4vw;
+    margin-bottom: 3vh;
+    color: whitesmoke;
+    font-family: "Playfair Display", serif; 
+}
+
 .hero h5 {
     color: whitesmoke;
-    font-size: 2vw;
+    font-size: 1vw;
+    padding: 24px;
     margin: 0px;
-    padding-left: 10vw;
-    font-family: "Playfair Display", serif;
+    font-family: "Fredoka", sans-serif;
+    font-style: italic;
 }
 
 .card {
@@ -69,13 +78,13 @@ body {
 }
 
 .card a {
-    color: whitesmoke;
+    color: rgb(226, 236, 231);
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-    font-size: 24px;
-    font-family: "Playfair Display", serif;
-    font-style: italic;
+    font-size: 2vw;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
     transition: 
         background-color 0.5s,
         color 0.5s;
@@ -88,7 +97,7 @@ body {
 
 .card img {
     height: 250px;
-    border-radius: 20px;
+    border-radius: 50%;
     padding: 24px;
 
 }
