@@ -7,7 +7,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: lavender;
+    background-color: #333333f4;
+    background-size: cover;
 }
 
 #layout {
@@ -18,10 +19,13 @@ body {
 }
 
 .hero{
-    background-image: url("../images/aurora.jpg");
+    background-image: url("../images/watercolor.jpg");
+    background-blend-mode: overlay;
+    background-color: #333333;
     background-size: cover;
-    background-position: center center;
-    height: 50vh;
+    background-position:center;
+    height: 80vh;
+    flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -30,16 +34,13 @@ body {
 .hero h1 {
     text-align: center;
     color: whitesmoke;
-    padding: 20vh;
-    font-size: 5vh;
+    padding: 24vh;
+    font-size: 6vh;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 .card {
-    background-color: darkseagreen;
+    background-color: rgba(185, 209, 185, 0.27);
     width: 450px;
     border-radius: 20px;
     box-shadow: 4px 4px 12px #333333;
@@ -73,23 +74,37 @@ body {
 }
 
 #content {
-    max-width: 800px;
-    margin: 48px auto;
+    max-width: 1000px;
+    margin: 20vh auto;
     text-align: center;
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 36px;
 }
 
 .gallery img {
-    height: 245px;
+    height: 345px;
     flex: 1;
     object-fit: cover;
 }
 
-#gallery-layout h3 {
-    justify-content: center;
+#hero-2 {
+    background-image: url("../images/watercolor.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+
+#hero-2 h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 20vh;
+    font-size: 5vh;
+    font-family: "Playfair Display", serif;
 }
