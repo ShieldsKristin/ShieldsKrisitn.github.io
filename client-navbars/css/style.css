@@ -21,7 +21,7 @@ body {
     padding-left: 24px;
 }
 
-#navbar a {
+#navbar-1 a {
     text-decoration: none;
     color: brown;
     font-size: 20px;
@@ -59,7 +59,7 @@ body {
 #header {
 }
 
-#navbar-3 {
+#navbar-top {
     display: flex;
     background:linear-gradient(orange, purple);
     justify-content: space-between;
@@ -71,7 +71,7 @@ body {
     margin-right: auto;
 }
 
-#navbar-3 a {
+#navbar-top a {
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -79,3 +79,7 @@ body {
     margin: 24px;
 }
 
+#navbar-bottom {
+    text-decoration: none;
+    
+}
