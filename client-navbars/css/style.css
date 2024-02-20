@@ -9,14 +9,16 @@ body {
 
 #navbar-1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background:linear-gradient(chocolate,darksalmon);
     color:brown;
 } 
 
-#name-2 {
+#name-1 {
+    color: whitesmoke;
     margin-right: auto;
+}
+#name-2 {
     color:whitesmoke;
     padding-left: 24px;
 }
@@ -56,30 +58,43 @@ body {
     color: #720026;
 }
 
-#header {
-}
-
 #navbar-top {
+    background:linear-gradient(rgb(82, 20, 108), purple);
     display: flex;
-    background:linear-gradient(orange, purple);
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px;
+    padding-left: 20px;
+    border-bottom: 2px solid rgba(79, 1, 113, 0.785);
 }
 
-#name-3 {
+#promo {
+    color: whitesmoke;
     margin-right: auto;
 }
 
+#name-3 {
+    padding-left: 24px;
+}
+
+#links {
+    margin-top: 24px;
+
+}
 #navbar-top a {
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    margin: 24px;
+    font-size: 16px;
+    padding: 24px;
 }
 
 #navbar-bottom {
+    color:whitesmoke;
+    background:linear-gradient( purple,orange);
+    padding-top: 1px;
+    display: flex;
+}
+
+#navbar-bottom a {
     text-decoration: none;
-    
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 24px;
 }
