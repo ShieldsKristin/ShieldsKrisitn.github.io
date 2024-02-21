@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nav {
+    background-color: #8ECAE6;
+    padding: 10px;
+    display: flex;
+}
+
+#nav img {
+    margin: 12px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #023047;
+    font-size: 24px;
+    padding: 20px;
+}
+
+#hero {
+    background-image: url("../images/pet.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero h1 {
+    color: whitesmoke;
+    padding-top: 4vh;
+
+}
