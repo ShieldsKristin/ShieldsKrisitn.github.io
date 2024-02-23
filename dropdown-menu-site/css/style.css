@@ -147,3 +147,19 @@ body {
 #pig img {
     width: 100%;
 }
+
+.return {
+    display: inline-block;
+    background-color:#32a9e0;
+    color: #023047;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 24px;
+    font-size: 2vw;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+.return:hover {
+    background-color: #F26419;
+}
