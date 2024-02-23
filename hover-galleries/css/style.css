@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-galleries {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.gallery {
+    flex: 300px;
+    border: 6px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#gallery1 {
+    display: flex
+}
+
+#gallery2 {
+    display: flex
+}
+
+#gallery3 {
+    display: flex;
+}
+#gallery3 img {
+    width: 400px;
+}
