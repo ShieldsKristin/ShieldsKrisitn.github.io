@@ -161,5 +161,7 @@ body {
 }
 
 .return:hover {
+    display: inline-block;
     background-color: #F26419;
+    text-align: center;
 }
