@@ -6,6 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
 #navbar {
     background: linear-gradient(to bottom, #109cb8, #0e5b96);
     display: flex;
@@ -16,4 +17,11 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
 }
