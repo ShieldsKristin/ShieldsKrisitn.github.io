@@ -6,6 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background: linear-gradient(#023047, #109cb8 );
+    background-size: cover;
 }
 
 #navbar {
@@ -13,6 +14,7 @@ body {
     padding: 10px;
     display: flex;
     align-items: center;
+    box-shadow: 4px 4px 12px #000000;
 }
 
 #navbar #logo {
@@ -44,8 +46,10 @@ body {
 
 .dropdown-menu a {
     background-color: #F26419;
+    border-bottom: 3px solid #ffae00;
     width: 100%;
     min-width: 200px;
+    box-shadow: 4px 4px 12px #000000;
 }
 
 #navbar .dropdown-menu a:hover {
@@ -109,13 +113,26 @@ body {
 #snickers {
     background-color:#ffae00;
     border: 5px solid #F26419;
+    box-shadow: 4px 4px 12px #000000;
+    border-radius: 20px;
     max-width: 50%;
     min-width: 500px;
+    margin: 24px;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
     width: 100%;
     text-align: center;
+}
+
+.bio {
+    margin: 5vh;
+}
+
+.bio  a{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
 }
 
 .bio h1 {
@@ -130,13 +147,17 @@ body {
 
 #snickers img {
     width: 100%;
+    box-shadow: 4px 4px 12px #000000;
 }
 
 #pig {
     background-color:#ffae00;
     border: 5px solid #F26419;
+    box-shadow: 4px 4px 12px #000000ad;
+    border-radius: 20px;
     max-width: 50%;
     min-width: 500px;
+    margin: 24px;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
@@ -146,24 +167,45 @@ body {
 
 #pig img {
     width: 100%;
+    box-shadow: 4px 4px 12px #000000ad;
 }
 
 .return {
     display: inline-block;
     background-color:#32a9e0;
     color: #023047;
+    box-shadow: 4px 4px 12px #000000;
     text-decoration: none;
     border-radius: 30px;
     font-weight: bold;
     padding: 24px;
     font-size: 2vw;
-    margin: 5vh 5vw 10vh 0px;
 }
 
 .return:hover {
     display: inline-block;
     background-color: #F26419;
     text-align: center;
+}
+
+#gino {
+    background-color:#ffae00;
+    border: 5px solid #F26419;
+    border-radius: 20px;
+    max-width: 50%;
+    min-width: 500px;
+    margin: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px 4px 12px #000000;
+}
+
+#gino img {
+    width: 100%;
+    box-shadow: 4px 4px 12px #000000;
 }
 
 /* tablet breakpoint */
