@@ -5,37 +5,145 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: linear-gradient(#023047, #109cb8 );
 }
 
-#nav {
-    background-color: #8ECAE6;
+#navbar {
+    background-color: #32a9e0;
     padding: 10px;
     display: flex;
+    align-items: center;
 }
 
-#nav img {
+#navbar #logo {
     margin: 12px;
+    margin-right: auto;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
 
-#nav a {
+#navbar a {
     text-decoration: none;
+    display: inline-block;
     color: #023047;
-    font-size: 24px;
-    padding: 20px;
+    font-size: 32px;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background-color:  #109cb8;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+}
+
+.dropdown-menu a {
+    background-color: #F26419;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #ffae00;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
 }
 
 #hero {
-    background-image: url("../images/pet.jpg");
+    background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-#hero h1 {
-    color: whitesmoke;
-    padding-top: 4vh;
+#hero h2 {
+    font-size: 6vw;
+    margin-top: 3vh;
+    margin-right: 2vw;
+    color: #023047;
+}
 
+#hero h4 {
+    font-size: 3vw;
+    margin: 0px 7vw 0px 0px;
+    color: #F26419;
+}
+
+#hero a {
+    display: inline-block;
+    background-color:#32a9e0;
+    color: #023047;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 24px;
+    font-size: 2vw;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero a:hover {
+    background-color: #F26419;
+}
+
+#snickers {
+    background-color:#ffae00;
+    border: 5px solid #F26419;
+    max-width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.bio h1 {
+    color: #023047;
+    font-size: 4vh;
+}
+.bio p {
+    color: #023047;
+    font-size: 32px;
+    padding: 24px;
+}
+
+#snickers img{
+    width: 100%;
+}
+
+#pig {
+    background-color:#ffae00;
+    border: 5px solid #F26419;
+    max-width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#pig img {
+    width: 100%;
 }
