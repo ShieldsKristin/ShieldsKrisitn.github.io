@@ -10,33 +10,165 @@ body {
 .card-galleries {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    width: 100%;
 }
 
-.gallery {
-    flex: 300px;
-    border: 6px solid black;
-    margin: 24px;
-    padding: 24px;
-    border-radius: 12px;
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
-}
 
 #gallery1 {
-    display: flex
+    display: flex;
+    background-color: chocolate;
+}
+
+#gallery1 img {
+    width: 100%;
+    justify-content: center;
+    padding: 24px;
+}
+
+#gallery1 .card{
+    transition:
+        opacity 0.5s;
+}
+
+#gallery1 .card:hover {
+    opacity: 0;
 }
 
 #gallery2 {
-    display: flex
+    display: flex;
+    margin: 40px;
+    width: 300px;
+    height: 100%;
+    position: relative;
+    border: 0px;
+    padding: 0px;
 }
 
-#gallery3 {
-    display: flex;
+#gallery2 .card-front
+#gallery2 .card-back {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 24px;
 }
-#gallery3 img {
-    width: 400px;
+
+#gallery2 .card-front{
+        background-image: url("../images/russia.jpg");
+        background-size: cover;
+        border-radius: 12px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+}
+
+#gallery2 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+
+#gallery2 .card-back {
+    transition: transform 0.25s;
+}
+
+#card1:hover .card-front {
+    transform: scaleX(0);
+}
+
+#card1:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+#gallery2 .card-back {
+    text-align: center;
+    font-size: 36px;
+}
+
+#gallery2 .card-back {
+    transform: scaleX(0);
+}
+
+#card2 .card-front{
+    background-image: url("../images/notre\ dam.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+#gallery3 {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}   
+
+#gallery3 h4 {
+    color: rgb(232, 184, 122);
+    text-align: center;
+    font-size: 24px;
+    padding-top: 42px;
+}
+
+#gallery3 #card1,
+#gallery3 #card2,
+#gallery3 #card3,
+#gallery3 #card4 {
+    background-image: url("../images/stars.jpg");
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    padding: 24px;
+    margin: 24px;
+}
+
+#gallery3 #card1 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#gallery3 #card1:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+#gallery3 #card2 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#gallery3 #card2:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+#gallery3 #card3 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#gallery3 #card3:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+#gallery3 #card4 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#gallery3 #card4:hover .card-content {
+    opacity: 1;
+    visibility: visible;
 }
