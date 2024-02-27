@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap')
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgba(73, 67, 60, 0.76);
+    background-size: cover;
+    background-blend-mode:overlay;
+    background-image: url(../images/texture2.jpg);
+}
+
+#navbar {
+    background:linear-gradient(#062f24,#1e6d57);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#logo img {
+    height: 120px;
+}
+#menu {
+   padding: 24px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #f18a0c;
+    padding: 24px;
+    font-size: 24px;
+    font-family: "Cinzel", serif;
+    font-weight: bold;
+}
+
+
+#hero {
+    background-image: url("../images/treehouse3.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 23, 18, 0.241);
+    background-blend-mode:lighten;
+    height: 50vw;
+}
+
+h2 {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold;
+    color:#f18a0c;
+    font-family: "cinzel",serif;
+    margin: 5vh 0vw 5vh 0px;
+}
+
+#hero a {
+    text-decoration: none;
+    font-family:"cinzel", sans-serif;
+    color: #f18a0c;
+    background-color:#a41e22;
+    ;
+    border-radius: 20px;
+    font-size: 3vw;
+    display: inline-block;
+    padding: 24px;
+    margin: 40vh 0vw 10vh 0px;
+}
+
+#content {
+    background-color: #022f23;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+
+#about {
+    color: #f18a0c;
+    text-align: center;
+    background-color: #022f23;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-content {
+    display: flex;
+    align-items: center;
+}
+
+#about img {
+    width: 100%;
+    margin: 24px;
+}
+
+#about p {
+    font-family:"Mukta", sans-serif;
+    text-align: center;
+    border: 4px solid #a41e22;
+    width: 50%;
+    font-size: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+#about a {
+    text-decoration: none;
+    color: #f18a0c;
+    background-color: #1e6d57;
+    padding: 24px;
+    font-size: 24px;
+    font-family: "Cinzel", serif;
+    font-weight: bold;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 24px;
+    margin:20px;
+}
