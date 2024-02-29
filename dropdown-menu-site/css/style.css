@@ -52,7 +52,7 @@ body {
     box-shadow: 4px 4px 12px #000000;
 }
 
-#navbar .dropdown-menu a:hover {
+#navbar :hover {
     background: #ffae00;
 }
 
