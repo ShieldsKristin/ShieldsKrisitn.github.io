@@ -24,6 +24,8 @@ body {
 #heading h4 {
     font-size: 3vh;
     color: #FF9E00;
+    padding: 24px;
+    margin-bottom: 0px;
 }
 
 #heading h1 {
@@ -32,6 +34,7 @@ body {
     font-style: italic;
     font-size: 10vh;
     color:#FF6D00;
+    margin: 0%;
 }
 
 #heading h5 {
@@ -149,4 +152,10 @@ body {
 #call {
     color: #FF9E00;
     font-size: 3vh;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    #container {
+        background-color: #240046;
+    }
 }
