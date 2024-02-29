@@ -158,4 +158,16 @@ body {
     #container {
         background-color: #240046;
     }
+    #team1 img {
+        margin-left: 5vw;
+        width: 25vw;
+    }
+    #vs h1 {
+        width: 4vh;
+    }
+    #team2 img {
+        margin-left: 5vw;
+        width: 25vw;
+    }
 }
+
