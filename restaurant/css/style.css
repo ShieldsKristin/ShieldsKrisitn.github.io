@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -23,16 +23,43 @@ body {
 }
 
 .logo {
-    margin: 10px;
+    margin: 24px;
 }
 
-.logo img {
-    height: 120px;
+#logo img {
+    width: 8vw;
+    height: 80%;
 }
+
+#name {
+    color: #f18a0c;
+    font-size: 6vh;
+    font-family: "cinzel";
+    font-weight: bold;
+    margin-left: 15vh;
+    margin-top: 0;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
 #menu {
    padding: 24px;
 }
 
+#menu a:hover {
+    background-color:#a41e22;
+    border-radius: 12px;
+    transition:
+    background-color .5s;
+}
+
+#menu-container a:hover {
+    background-color:#a41e22;
+    transition:
+    background-color .5s;
+}
 #menu a {
     text-decoration: none;
     color: #f18a0c;
@@ -41,7 +68,6 @@ body {
     font-family: "Cinzel", serif;
     font-weight: bold;
 }
-
 
 #hero {
     background-image: url("../images/treehouse3.jpg");
@@ -71,10 +97,10 @@ h2 {
     background-color:#a41e22;
     ;
     border-radius: 20px;
-    font-size: 3vw;
+    font-size: 2vw;
     display: inline-block;
-    padding: 24px;
-    margin: 40vh 0vw 10vh 0px;
+    padding: 15px;
+    margin: 0vh 0vw 10vh 0px;
 }
 
 #content {
@@ -112,7 +138,7 @@ h2 {
     font-size: 4vh;
     margin-left: auto;
     margin-right: auto;
-    padding: 24px;
+    padding: 20px;
 }
 
 #about a {
@@ -129,10 +155,15 @@ h2 {
     margin:20px;
 }
 
+#content img {
+  width: 80%;
+}
+
 #footer {
     background:linear-gradient(#062f24,#1e6d57);
     flex-wrap: wrap;
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: space-between;
     margin-top: 10vh;
@@ -141,14 +172,19 @@ h2 {
 }
 
 #social {
-    border-right: 2px solid #f18a0c;
+    border-right: 1px solid #f18a0c;
+    font-family:"Mukta", sans-serif;
     padding-left: 5vw;
     padding-right: 10vw;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+#social i {
+    padding: 9px;
 }
 
 #table {
-    border-right: 2px solid #f18a0c;
+    border-right: 1px solid #f18a0c;
     padding-left: 5vw;
     padding-right: 10vw;
     text-align: center;
@@ -157,13 +193,13 @@ h2 {
 #c {
     color: #f18a0c;
     text-align: center;
-    background-color: #1e6d57;
     font-size: 2vh;
     font-style: italic;
 }
 
 #food {
     background-color: #022f23;
+    border: 2px solid #f18a0c;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -174,43 +210,60 @@ h2 {
     text-align: center;
 }
 
-#menu-top {
-    color: #f18a0c;
-    text-align: center;
+#menu-container {
+    background:
+    linear-gradient(#0000009a,#00000034), 
+    url("../images/treehouse4.jpg");
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20vh;
+    margin-bottom: 24px;
 }
+
 
 .menu-cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20vh;
+    padding-top: 24px;
     border-bottom: #f18a0c;
 }
 
 .menu-cards a {
     color: #f18a0c;
-    font-size: 2vh;
+    font-family:"Mukta", sans-serif;
+    font-size: 3vh;
     text-decoration: none;
     background-color: #1e6d57;
     margin: 24px;
-    padding: 24px;
-    border-radius: 20px;
+    padding: 18px;
+    border-radius: 40px;
 }
 
 #breakfast {
     display: flex;
     justify-content: center;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #b1 {
-    width: 50vw;
+    width: 40vw;
     align-items: center;
-    height: 100%;
+    height: 80%;
     border: 3px solid #a41e22;
+    background-color: #415b4ca9;
 }
 
 #b1 img {
-    width: 90%;
-    padding: 30px;
+    width: 100%;
+    align-items: center;
 }
 
 #b1 h4 {
@@ -220,9 +273,11 @@ h2 {
 
 h3 {
     color: #f18a0c;
+    font-family: "cinzel";
+    text-decoration: underline;
     text-align: center;
-    font-size: 5vh;
-    padding: 30px;
+    font-size: 6vh;
+    padding: 24px;
 }
 
 h4 {
@@ -233,6 +288,7 @@ h4 {
 
 #brunch {
     display: flex;
+    background:linear-gradient(#022f23, #35a1478b, #022f23);
     justify-content: space-between;
     padding: 5vw;
 }
@@ -241,6 +297,7 @@ h4 {
     width: 450px;
     padding: 24px;
     border: 3px solid #a41e22;
+    background-color: #415b4ca9;
 }
 
 .card img {
@@ -255,5 +312,31 @@ h4 {
 #dinner {
     display: flex;
     justify-content: space-between;
-    padding: 5vw;
+    padding: 7vw;
+    background:linear-gradient(#022f23, #35a1478b, #022f23);
+}
+
+#dessert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:linear-gradient(#022f23, #35a1478b, #022f23);
+    padding: 7vw;
+}
+
+#view {
+    text-align: center;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+#view a{
+    color: #f18a0c;
+    text-decoration: none;
+    font-size: 3vh;
+    align-items: center;
+    text-align: center;
+    background-color: #1e6d57;
+    padding: 24px;
+    border-radius: 12px;
 }
