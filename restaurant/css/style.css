@@ -8,7 +8,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: rgba(73, 67, 60, 0.76);
+    background-color: rgba(73, 67, 60, 0.888);
     background-size: cover;
     background-blend-mode:overlay;
     background-image: url(../images/texture2.jpg);
@@ -24,11 +24,11 @@ body {
 
 .logo {
     margin: 24px;
+    height: 10vh;
 }
 
-#logo img {
-    width: 8vw;
-    height: 80%;
+.logo img {
+    height: 12vh;
 }
 
 #name {
@@ -57,8 +57,7 @@ body {
 
 #menu-container a:hover {
     background-color:#a41e22;
-    transition:
-    background-color .5s;
+    transition: .5s;
 }
 #menu a {
     text-decoration: none;
@@ -73,12 +72,13 @@ body {
     background-image: url("../images/treehouse3.jpg");
     background-size: cover;
     background-position: center center;
-    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(27, 23, 18, 0.241);
-    background-blend-mode:lighten;
+    background-color: rgba(0, 0, 0, 0.529);
+    background-blend-mode:overlay;
     height: 50vw;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -87,7 +87,7 @@ h2 {
     font-weight: bold;
     color:#f18a0c;
     font-family: "cinzel",serif;
-    margin: 5vh 0vw 5vh 0px;
+    margin: 5vh 6vw 5vh 0px;
 }
 
 #hero a {
@@ -103,60 +103,84 @@ h2 {
     margin: 0vh 0vw 10vh 0px;
 }
 
+#hero a:hover {
+    background-color: #f18a0c;
+    color: #a41e22;
+    transition:  .5s;
+}
+
 #content {
     background-color: #022f23;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 24px;
 }
 
 
 #about {
     color: #f18a0c;
-    text-align: center;
     background-color: #022f23;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px;
+    flex-direction: column;
+
 }
 
 #about-content {
     display: flex;
+    display: grid;
     align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
 #about img {
-    width: 100%;
-    margin: 24px;
+    width:100%;
+    padding: 24px;
 }
 
 #about p {
     font-family:"Mukta", sans-serif;
+    display: flex;
     text-align: center;
-    border: 4px solid #a41e22;
-    width: 50%;
     font-size: 4vh;
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px;
 }
 
-#about a {
-    text-decoration: none;
-    color: #f18a0c;
-    background-color: #1e6d57;
-    padding: 24px;
-    font-size: 24px;
-    font-family: "Cinzel", serif;
-    font-weight: bold;
-    border-radius: 20px;
-    display: inline-block;
-    padding: 24px;
-    margin:20px;
+#about h2 {
+    padding-top: 24px;
 }
 
 #content img {
-  width: 80%;
+  width: 100%;
+}
+
+#fresh {
+    align-items: center;
+    margin: 12px;
+}
+
+#fresh img {
+    width: 80%;
+    margin-left: 10vw;
+}
+
+#fresh p {
+    color: #f18a0c;
+    font-family:"Mukta", sans-serif;
+    padding: 40px;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#fresh a {
+    text-align: center;
+    color: #f18a0c;
+    font-family:"Mukta", sans-serif;
+    font-size: 2vh;
+    text-decoration: none;
+    background-color: #1e6d57;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 40px;
 }
 
 #footer {
@@ -224,12 +248,14 @@ h2 {
     margin-bottom: 24px;
 }
 
+#menu-container h2 {
+    padding-top: 20vh;
+}
 
 .menu-cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20vh;
     padding-top: 24px;
     border-bottom: #f18a0c;
 }
@@ -249,6 +275,7 @@ h2 {
     display: flex;
     justify-content: center;
     width: 45%;
+    box-shadow: -3px 3px 10px #0000006b;
     margin-left: auto;
     margin-right: auto;
 }
@@ -257,7 +284,7 @@ h2 {
     width: 40vw;
     align-items: center;
     height: 80%;
-    border: 3px solid #a41e22;
+    
     background-color: #415b4ca9;
 }
 
@@ -271,13 +298,22 @@ h2 {
     color: #f18a0c;
 }
 
+#breakfast p {
+    color: #f18a0c;
+    font-size: 18px;
+    text-align: center;
+    font-family:"Mukta", sans-serif;
+
+}
+
 h3 {
     color: #f18a0c;
     font-family: "cinzel";
     text-decoration: underline;
     text-align: center;
-    font-size: 6vh;
-    padding: 24px;
+    font-size: 5vh;
+    margin-top: 0px;
+    padding-top: 24px;
 }
 
 h4 {
@@ -288,6 +324,7 @@ h4 {
 
 #brunch {
     display: flex;
+    flex-wrap: wrap;
     background:linear-gradient(#022f23, #35a1478b, #022f23);
     justify-content: space-between;
     padding: 5vw;
@@ -295,8 +332,8 @@ h4 {
 
 .card {
     width: 450px;
-    padding: 24px;
-    border: 3px solid #a41e22;
+    padding: 20px;
+    box-shadow: -3px 3px 10px #0000006b;
     background-color: #415b4ca9;
 }
 
@@ -311,6 +348,7 @@ h4 {
 
 #dinner {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 7vw;
     background:linear-gradient(#022f23, #35a1478b, #022f23);
@@ -339,4 +377,50 @@ h4 {
     background-color: #1e6d57;
     padding: 24px;
     border-radius: 12px;
+}
+
+@media screen and ( min-width:500 and max-width:768px){
+    #navbar {
+        flex-direction: column;
+    }
+
+    #menu-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+
+    #about-content img {
+        width: 5vw;
+    }
+
+    #about-content p {
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+    }
+
+    #menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #food {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #brunch {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction:column ;
+    }
+
+    .card {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
