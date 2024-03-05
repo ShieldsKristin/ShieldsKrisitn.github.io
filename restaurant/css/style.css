@@ -95,7 +95,6 @@ h2 {
     font-family:"cinzel", sans-serif;
     color: #f18a0c;
     background-color:#a41e22;
-    ;
     border-radius: 20px;
     font-size: 2vw;
     display: inline-block;
@@ -112,6 +111,7 @@ h2 {
 #content {
     background-color: #022f23;
     width: 90%;
+    padding: 24px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -141,7 +141,7 @@ h2 {
     font-family:"Mukta", sans-serif;
     display: flex;
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
     padding: 20px;
 }
 
