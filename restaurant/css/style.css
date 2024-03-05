@@ -294,13 +294,13 @@ h2 {
 }
 
 #b1 h4 {
-    font-size: 4vh;
+    font-size: 3vh;
     color: #f18a0c;
 }
 
 #breakfast p {
     color: #f18a0c;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-family:"Mukta", sans-serif;
 
@@ -311,15 +311,13 @@ h3 {
     font-family: "cinzel";
     text-decoration: underline;
     text-align: center;
-    font-size: 5vh;
-    margin-top: 0px;
-    padding-top: 24px;
+    font-size: 8vh;
 }
 
 h4 {
     color: #f18a0c;
-    padding: 20px;
     text-align: center;
+    font-size: 2vh;
 }
 
 #brunch {
@@ -327,12 +325,13 @@ h4 {
     flex-wrap: wrap;
     background:linear-gradient(#022f23, #35a1478b, #022f23);
     justify-content: space-between;
-    padding: 5vw;
+    padding: 3vw;
 }
 
 .card {
     width: 450px;
-    padding: 20px;
+    margin: 0px;
+    padding: 24px;
     box-shadow: -3px 3px 10px #0000006b;
     background-color: #415b4ca9;
 }
@@ -379,9 +378,13 @@ h4 {
     border-radius: 12px;
 }
 
-@media screen and ( min-width:500 and max-width:768px){
+@media screen and ( min-width:490px and max-width:800px){
     #navbar {
         flex-direction: column;
+    }
+
+    #menu a{
+        font-size: 8px;
     }
 
     #menu-container {
@@ -422,5 +425,7 @@ h4 {
     .card {
         flex-wrap: wrap;
         flex-direction: column;
+        padding: 24px;
+        margin: 12px;
     }
 }
